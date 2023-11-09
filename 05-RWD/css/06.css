@@ -1,0 +1,20 @@
+/* Estandar para dispositivo mmobil en tamaño horizontal */
+@media (min-width: 550px) {
+  
+}
+
+/* Para tablet en su modo landscape */
+@media (min-width: 768px) {
+}
+
+/* Para un landscape */
+@media (min-width: 1024px) {
+}
+
+/* Para una laptop */
+@media (min-width: 1200px) {
+}
+
+/* Tamaño muy grande para un monitor o pantalla */
+@media (min-width: 1600px) {
+}

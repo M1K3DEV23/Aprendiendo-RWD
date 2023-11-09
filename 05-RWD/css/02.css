@@ -1,0 +1,36 @@
+.oferta {
+  background-color: #00446e;
+  padding: 2rem;
+  text-align: center;
+}
+
+.precio {
+  font-size: 4rem;
+  margin: 0;
+}
+
+/* Siempre para trabajar en mobile first */
+/* min-width: se usa de los 600 -- una tamaño de pantalla mas grande */
+
+/* Aqui el orden los mediaQuerys es del mas pequeño al mas grande@media (max-width: 800px) {
+  .oferta {
+    max-width: 40rem;
+  }
+} */
+@media (min-width:600px) {
+  .oferta {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+
+  .precio {
+    font-size: 2rem;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .oferta {
+    max-width: 60rem;
+  }
+}

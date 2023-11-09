@@ -1,0 +1,8 @@
+/* Imagenes responsible */
+
+img {
+  /* Para imagenes pequeñas es mejor max-width */
+  max-width: 100%;
+  /* Las imagenes tienen una separacion abajo -- para evitar eso es mejor usar */
+  display: block;
+}

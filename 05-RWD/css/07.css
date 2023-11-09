@@ -1,0 +1,11 @@
+.contenedor-responsive {
+  background-color: #FFF;
+  /* width: 90%;
+  max-width: 1000px; */
+  /* Otra forma de hacer lo del width en una sola linea*/
+  width: min(90%, 1000px);
+  height: 400px;
+  /* los mismo que margin: 0 auto */
+  margin-inline: auto;
+
+}
